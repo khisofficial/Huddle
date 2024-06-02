@@ -59,3 +59,24 @@ p{
 .register:hover{
     cursor: pointer;
 }
+.socials{
+    justify-content: end;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+}
+.social-icon:hover{
+    cursor: pointer;
+    border: 2px solid violet;
+}
+.social-icon>svg:hover{
+    cursor: pointer;
+    fill: violet;
+}
+.social-icon{
+    text-align: center;
+    border-radius: 100%;
+    border: 2px solid white;
+    padding: 5px;
+}
